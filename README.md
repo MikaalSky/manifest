@@ -3,7 +3,7 @@ The Android Open Source Project Nougat
 
 To initialize your local repository using the AOSP-G3 trees & MikaalSky vs985 files, use a command like this:
 ````bash
-repo init -u git://github.com/AOSP-G3/manifest.git -b nougat
+repo init -u git://github.com/MikaalSky/manifest.git -b nougat
 ```
 Then to sync up:
 ````bash
