@@ -18,6 +18,9 @@
   <remote  name="aosp-g3"
            fetch="https://github.com/AOSP-G3"
 	   revision="nougat" />
+  <remote  name="mikaalsky"
+           fetch="https://github.com/MikaalSky"
+	   revision="cm14.0" />
   <remote  name="MikaalSky"
 	   fetch="https://github.com/MikaalSky"
 	   revision="aosp-nougat" />
@@ -37,7 +40,7 @@
   </project>
 
   <!-- AOSP-G3 -->
-  <project path="device/lge/vs985" name="android_device_lge_d855" remote="aosp-g3" />
+  <project path="device/lge/vs985" name="android_device_lge_vs985" remote="mikaalsky" />
   <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="aosp-g3" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aosp-g3" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aosp-g3" />
