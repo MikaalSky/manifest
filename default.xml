@@ -37,6 +37,7 @@
   </project>
 
   <!-- AOSP-G3 -->
+  <project path="device/lge/d855" name="android_device_lge_d855" remote="aosp-g3" />
   <project path="device/lge/vs985" name="android_device_lge_vs985" remote="MikaalSky" />
   <project path="device/lge/g3-common" name="android_device_lge_g3-common" remote="aosp-g3" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aosp-g3" />
